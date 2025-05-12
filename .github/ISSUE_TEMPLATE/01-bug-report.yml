@@ -1,0 +1,82 @@
+name: Bug Report
+description: Report a bug you have encountered during your playtime
+labels:
+  - "Type: Bug"
+  - "Status: New"
+body:
+- type: markdown
+  attributes:
+    value: |
+      Examples: item duplication, world generation issues, issues with mobs, recipe issues etc.
+
+      Note: This issue template is only for reporting bugs. 
+      To report a crash, use the "Crash Report" template.
+      If you have a change suggestion, use the "Change Suggestion" template.
+      If you have a feature suggestion, use the "Feature Suggestion" template.
+      If you have a mod suggestion, use the "Mod Suggestion" template.
+- type: input
+  id: pack-version
+  attributes:
+    label: Pack Version
+    description: What version of the modpack are you playing?
+    placeholder: "Example: v1.0"
+  validations:
+    required: true
+- type: input
+  id: discord-username
+  attributes:
+    label: Discord Username
+    description: If you're in our [Discord server](https://discord.gg/PWaXY3dBxt). You can leave it empty if you aren't in our Discord server or you don't have a Discord. It will be
+      harder for us to contact you if we'll need additional information.
+    placeholder: "Example: GregoriousT"
+- type: dropdown
+  id: operating-system
+  attributes:
+    label: Operating System
+    description: What operating system are you using?
+    options:
+      - Windows
+      - Linux
+      - MacOS
+  validations:
+    required: true
+- type: dropdown
+  id: java-version
+  attributes:
+    label: Java Version
+    description: What Java version are you using to play this pack?
+    options:
+      - Java 17
+      - Java 18
+      - Java 19
+      - Java 20
+      - Java 21
+  validations:
+    required: true
+- type: textarea
+  id: expected-behavior
+  attributes:
+    label: Expected Behavior
+    description: What did you try to do and what was the behavior you expected?
+      Attach screenshot(s) and/or logs if necessary (to upload the log, use https://pastebin.com, https://mclo.gs or submit the log by dragging it to this text area).
+    placeholder: "Example: Trying to make a TiC smeltery. I expected to be able to smelt ores"
+  validations:
+    required: true
+- type: textarea
+  id: unexpected-result
+  attributes:
+    label: Unexpected Result
+    description: What happened instead? Attach screenshot(s) and/or logs if necessary (to upload the log, use https://pastebin.com, https://mclo.gs or submit the log by dragging it to this text area).
+    placeholder: "Example: I can't access the TiC smeltery GUI after building it."
+  validations:
+    required: true
+- type: checkboxes
+  id: additional-information
+  attributes:
+    label: Additional information
+    description: Please mark the options so we can handle your report properly.
+    options:
+      - label: I have looked through the Issue Tracker and didn't see anything similar to my issue.
+        required: true
+      - label: I can consistently reproduce this problem with the steps mentioned above.
+        required: false

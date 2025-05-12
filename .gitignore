@@ -1,0 +1,42 @@
+# Whitelist repo files
+!.gitignore
+!README.md
+!.github/*
+!LICENSE
+
+# Whitelist config files
+!config/*
+!kubejs/*
+
+# Blacklist files not modified
+crash-reports/*
+defaultconfigs/*
+downloads/*
+fancymenu_data/*
+gtceu/*
+ldlib/*
+local/*
+logs/*
+modernfix/*
+mods/*
+resourcepacks/*
+saves/*
+screenshots/*
+shaderpacks/*
+xaero/*
+XaeroWaypoints_BACKUP240807/*
+emi.json
+malum_extra.json
+minecraftinstance.json
+options.txt
+rhino.local.properties
+user-prefs.json
+usercache.json
+usernamecache.json
+
+# Remove MacOS generated index files
+*/.DS_Store
+.DS_Store
+.DS_Store?
+.Trashes
+Icon?
