@@ -2,7 +2,7 @@ name: Crash Report
 description: Report a bug that prevents the game from starting or crashes the game when playing.
 labels:
   - "Type: Crash"
-  - "Status: New"
+  - "Status: Processing"
 body:
 - type: markdown
   attributes:
