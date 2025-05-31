@@ -1,0 +1,4 @@
+gamerule waterSourceConversion false
+gamerule doTraderSpawning false
+gamerule globalSoundEvents false
+gamerule playersSleepingPercentage 50

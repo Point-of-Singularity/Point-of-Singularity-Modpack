@@ -1,0 +1,6 @@
+{
+  "type": "railcraft:geode",
+  "biomes": "#forge:empty_biome",
+  "spawn_overrides": {},
+  "step": "surface_structures"
+}

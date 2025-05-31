@@ -1,0 +1,59 @@
+{
+	autofocus_id: "27EA32958A2F555A"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "test"
+	group: ""
+	icon: "minecraft:flint"
+	id: "49D98C7F3A36F031"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Welcome to Point of Singularity!"]
+			id: "27EA32958A2F555A"
+			tasks: [{
+				count: 16L
+				id: "30639AFF53715CCB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Collect 16x logs"
+				type: "item"
+			}]
+			title: "Let the fun... begin!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [""]
+			id: "3D7CCD7C2D3BF703"
+			subtitle: "Consumes: yes\\nCrafting task"
+			tasks: [{
+				consume_items: true
+				id: "2B45A64352AE5AED"
+				item: "minecraft:oak_planks"
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			id: "39A984EA10C297E3"
+			subtitle: "Consumes, crafting task"
+			tasks: [{
+				id: "45AB0B217A442FC2"
+				item: "minecraft:oak_planks"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+	]
+	title: "Tier 0: Flint Age"
+}

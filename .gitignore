@@ -3,14 +3,16 @@
 !README.md
 !.github/*
 !LICENSE
+!CODEOWNERS
 
 # Whitelist config files
 !config/*
 !kubejs/*
+!defaultconfigs
 
 # Blacklist files not modified
+.curseclient
 crash-reports/*
-defaultconfigs/*
 downloads/*
 fancymenu_data/*
 gtceu/*
