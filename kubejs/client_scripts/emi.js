@@ -106,12 +106,21 @@ JEIEvents.hideItems(event => {
     'ae2:creative_item_cell',
     'gtceu:creative_energy',
     'gtceu:creative_data_access_hatch',
-    'enigmaticgraves:grave_finder'
+    'enigmaticgraves:grave_finder',
+    '@framedblocks'
   ].forEach(item => {event.hide(item)})
 })
 
 JEIEvents.addItems(event => {
   [
-    'rechiseled:chisel'
+    'rechiseled:chisel',
+    'framedblocks:framed_cube',
+    'framedblocks:framing_saw',
+    'framedblocks:powered_framing_saw',
+    'framedblocks:framed_reinforcement',
+    'framedblocks:framed_hammer',
+    'framedblocks:framed_wrench',
+    'framedblocks:framed_key',
+    'framedblocks:framed_screwdriver'
   ].forEach(item => {event.add(item)})
 })

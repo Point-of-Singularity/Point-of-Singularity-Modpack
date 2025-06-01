@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "digital_storage_at_last"
+	group: "4761690BA72A6BCD"
+	icon: "ae2:controller"
+	id: "05339F59214EC301"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Digital Storage At Last!"
+}

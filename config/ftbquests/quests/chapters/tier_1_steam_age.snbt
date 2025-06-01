@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tier_1_steam_age"
-	group: ""
+	group: "60313AF79F5CB0C5"
 	icon: "gtceu:coke_oven_bricks"
 	id: "192F3EC81617862F"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [ ]
 	title: "Tier 1: Steam Age"

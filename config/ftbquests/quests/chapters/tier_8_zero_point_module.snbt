@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_8_zero_point_module"
+	group: "60313AF79F5CB0C5"
+	icon: "gtceu:zero_point_module"
+	id: "7CC3A20DD03DC1BB"
+	order_index: 8
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tier 8: Zero Point Module"
+}

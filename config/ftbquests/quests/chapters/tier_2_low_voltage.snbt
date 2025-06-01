@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_2_low_voltage"
+	group: "60313AF79F5CB0C5"
+	icon: "gtceu:steel_ingot"
+	id: "74A99F1AD8112D03"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tier 2: Low Voltage"
+}

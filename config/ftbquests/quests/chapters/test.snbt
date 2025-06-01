@@ -3,10 +3,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "test"
-	group: ""
+	group: "60313AF79F5CB0C5"
 	icon: "minecraft:flint"
 	id: "49D98C7F3A36F031"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_9_ultimate_voltage"
+	group: "60313AF79F5CB0C5"
+	icon: "gtceu:research_station"
+	id: "3E0612B499C816AF"
+	order_index: 9
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tier 9: Ultimate Voltage"
+}
