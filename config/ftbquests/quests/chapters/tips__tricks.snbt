@@ -4,7 +4,7 @@
 	filename: "tips__tricks"
 	group: "4761690BA72A6BCD"
 	hide_quest_details_until_startable: true
-	hide_quest_until_deps_visible: true
+	hide_quest_until_deps_complete: true
 	icon: "minecraft:writable_book"
 	id: "56958644FDDE7D5A"
 	order_index: 0

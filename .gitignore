@@ -11,8 +11,9 @@
 !defaultconfigs
 
 # Blacklist files not modified
-.curseclient
+config/oculus.properties
 crash-reports/*
+.curseclient
 downloads/*
 fancymenu_data/*
 gtceu/*

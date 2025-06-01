@@ -4,7 +4,7 @@
 	filename: "tier_2_low_voltage"
 	group: "60313AF79F5CB0C5"
 	hide_quest_details_until_startable: true
-	hide_quest_until_deps_visible: true
+	hide_quest_until_deps_complete: true
 	icon: "gtceu:steel_ingot"
 	id: "74A99F1AD8112D03"
 	order_index: 2

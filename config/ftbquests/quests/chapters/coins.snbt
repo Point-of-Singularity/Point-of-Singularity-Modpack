@@ -1,14 +1,14 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "tips__tricks"
+	filename: "coins"
 	group: "4761690BA72A6BCD"
 	hide_quest_details_until_startable: true
-	hide_quest_until_deps_visible: true
-	icon: "minecraft:writable_book"
-	id: "56958644FDDE7D5A"
-	order_index: 0
+	hide_quest_until_deps_complete: true
+	icon: "gtceu:neutronium_credit"
+	id: "098984089290D9B3"
+	order_index: 4
 	quest_links: [ ]
 	quests: [ ]
-	title: "Tips \\& Tricks"
+	title: "Coins"
 }

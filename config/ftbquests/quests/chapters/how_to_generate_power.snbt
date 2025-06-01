@@ -4,7 +4,7 @@
 	filename: "how_to_generate_power"
 	group: "4761690BA72A6BCD"
 	hide_quest_details_until_startable: true
-	hide_quest_until_deps_visible: true
+	hide_quest_until_deps_complete: true
 	icon: "gtceu:hv_gas_turbine"
 	id: "548E1983AFE0A49D"
 	order_index: 2

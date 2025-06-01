@@ -4,7 +4,7 @@
 	filename: "tier_6_insane_voltage"
 	group: "60313AF79F5CB0C5"
 	hide_quest_details_until_startable: true
-	hide_quest_until_deps_visible: true
+	hide_quest_until_deps_complete: true
 	icon: "gtceu:tungsten_steel_ingot"
 	id: "5246CA4752A197E4"
 	order_index: 6

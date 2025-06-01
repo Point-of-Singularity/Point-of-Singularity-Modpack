@@ -4,7 +4,7 @@
 	filename: "tier_8_zero_point_module"
 	group: "60313AF79F5CB0C5"
 	hide_quest_details_until_startable: true
-	hide_quest_until_deps_visible: true
+	hide_quest_until_deps_complete: true
 	icon: "gtceu:zero_point_module"
 	id: "7CC3A20DD03DC1BB"
 	order_index: 8

@@ -10,26 +10,174 @@
 	id: "49D98C7F3A36F031"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		description: ["Welcome to Point of Singularity!"]
-		id: "27EA32958A2F555A"
-		tasks: [{
-			consume_items: true
-			count: 16L
-			id: "30639AFF53715CCB"
-			item: {
+	quests: [
+		{
+			description: ["Welcome to Point of Singularity!"]
+			icon: "minecraft:oak_log"
+			id: "27EA32958A2F555A"
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				count: 16L
+				id: "30639AFF53715CCB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Collect 16x logs"
+				type: "item"
+			}]
+			title: "Let the fun... begin!"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B2EFF28230BEA48"]
+			id: "3FD5ED69067CD195"
+			tasks: [{
+				count: 6L
+				id: "387ED9F69F294ABB"
+				item: "minecraft:flint"
+				title: "Collect 6x flint"
+				type: "item"
+			}]
+			title: "A rock to rule 'em all"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27EA32958A2F555A"]
+			id: "3B2EFF28230BEA48"
+			tasks: [{
+				count: 18L
+				id: "7B83E79C4FB867B2"
+				item: "minecraft:gravel"
+				title: "Collect 18x gravel"
+				type: "item"
+			}]
+			title: "What’s This Rock Good For?"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55AFB02781E07060"]
+			icon: {
 				Count: 1
-				id: "itemfilters:tag"
+				id: "gtceu:flint_pickaxe"
 				tag: {
-					value: "minecraft:logs"
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						TorchPlacing: 1b
+					}
+					GT.Tool: {
+						Damage: 0
+						HarvestLevel: 2
+						MaxDamage: 63
+						ToolSpeed: 5.5f
+					}
+					HideFlags: 2
 				}
 			}
-			title: "Collect 16x logs"
-			type: "item"
-		}]
-		title: "Let the fun... begin!"
-		x: 0.0d
-		y: 0.0d
-	}]
+			id: "4AF1503CB9B65772"
+			tasks: [
+				{
+					id: "32E18630E6AB2374"
+					item: {
+						Count: 1
+						id: "gtceu:flint_pickaxe"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								TorchPlacing: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 63
+								ToolSpeed: 5.5f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BFAEEEE5B7296D9"
+					item: {
+						Count: 1
+						id: "gtceu:flint_shovel"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 63
+								ToolSpeed: 5.5f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BE611893DDE2C58"
+					item: {
+						Count: 1
+						id: "gtceu:flint_axe"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								DisableShields: 1b
+								TreeFelling: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 63
+								ToolSpeed: 3.5f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15C0CE37AC90C1CF"
+					item: {
+						Count: 1
+						id: "gtceu:flint_hoe"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 63
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3FD5ED69067CD195"]
+			id: "55AFB02781E07060"
+			tasks: [{
+				id: "4429ACF58A62154C"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "A carpenter's dream"
+			x: 2.5d
+			y: 0.0d
+		}
+	]
 	title: "Tier 0: Flint Age"
 }
