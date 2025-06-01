@@ -1,0 +1,127 @@
+{
+	autofocus_id: "27EA32958A2F555A"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_0_flint_age"
+	group: "60313AF79F5CB0C5"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:flint"
+	id: "49D98C7F3A36F031"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Welcome to Point of Singularity!"]
+			id: "27EA32958A2F555A"
+			rewards: [{
+				id: "1383393A7111A45C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "30639AFF53715CCB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Collect 16x logs"
+				type: "item"
+			}]
+			title: "Let the fun... begin!"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "3FD5ED69067CD195"
+			rewards: [{
+				id: "7E2775E9861D8386"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "387ED9F69F294ABB"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			title: "Getting some flint"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3FD5ED69067CD195"
+				"27EA32958A2F555A"
+			]
+			hide_dependency_lines: false
+			id: "52ED12D633DBEA62"
+			rewards: [{
+				id: "45097F3CA49A2A85"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "580460F6D4703F28"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52ED12D633DBEA62"]
+			hide_dependency_lines: false
+			id: "06304D209EA2DA33"
+			rewards: [{
+				id: "20B0240D28148600"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "308895D8600B2ABB"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "333BB7434F194AAF"
+					item: { Count: 16, id: "minecraft:cobblestone" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06304D209EA2DA33"]
+			id: "3850F1DC0B94A0E1"
+			tasks: [{
+				id: "563C99877F99527F"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+	]
+	title: "Tier 0: Flint Age"
+}

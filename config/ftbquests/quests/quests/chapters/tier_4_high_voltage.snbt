@@ -1,0 +1,14 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_4_high_voltage"
+	group: "60313AF79F5CB0C5"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "gtceu:stainless_steel_ingot"
+	id: "18C2F77DA9DB54CC"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tier 4: High Voltage"
+}
