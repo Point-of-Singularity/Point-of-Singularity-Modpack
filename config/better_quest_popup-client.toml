@@ -1,7 +1,7 @@
 #Icon size of displayed pop-up item in pixels.
 #Default: 16
 #Range: > 0
-iconSizePx = 22
+iconSizePx = 25
 #Center x of displayed pop-up.
 #Unit:
 #  %: Screen width in percentage.

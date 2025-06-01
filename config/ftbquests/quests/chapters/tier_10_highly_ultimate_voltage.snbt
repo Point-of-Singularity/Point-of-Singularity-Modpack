@@ -3,6 +3,8 @@
 	default_quest_shape: ""
 	filename: "tier_10_highly_ultimate_voltage"
 	group: "60313AF79F5CB0C5"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
 	icon: "gtceu:max_battery"
 	id: "26C2D33266616B1E"
 	order_index: 10

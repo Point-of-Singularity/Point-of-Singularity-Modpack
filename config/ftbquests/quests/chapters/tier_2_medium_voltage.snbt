@@ -3,6 +3,8 @@
 	default_quest_shape: ""
 	filename: "tier_2_medium_voltage"
 	group: "60313AF79F5CB0C5"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
 	icon: "gtceu:aluminium_ingot"
 	id: "16E74929EA228672"
 	order_index: 3

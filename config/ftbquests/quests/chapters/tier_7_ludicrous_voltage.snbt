@@ -3,6 +3,8 @@
 	default_quest_shape: ""
 	filename: "tier_7_ludicrous_voltage"
 	group: "60313AF79F5CB0C5"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
 	icon: "gtceu:assembly_line"
 	id: "123F8680EE594F26"
 	order_index: 7

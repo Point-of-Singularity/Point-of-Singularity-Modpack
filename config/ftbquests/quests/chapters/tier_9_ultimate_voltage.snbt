@@ -3,6 +3,8 @@
 	default_quest_shape: ""
 	filename: "tier_9_ultimate_voltage"
 	group: "60313AF79F5CB0C5"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
 	icon: "gtceu:research_station"
 	id: "3E0612B499C816AF"
 	order_index: 9
